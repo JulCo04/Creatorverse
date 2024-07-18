@@ -1,10 +1,13 @@
 import React from 'react';
+import NavBar from '../components/NavBar';
+import CreatorForm from '../components/CreatorForm';
 
 function EditCreator() {
     return(
 
         <div>
-            <h1>EditCreator</h1>
+            <NavBar />
+            <CreatorForm type='edit'/>
         </div>
 
     );

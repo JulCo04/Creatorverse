@@ -1,10 +1,17 @@
 import React from 'react';
+import CreatorCard from '../components/CreatorCard';
+import NavBar from '../components/NavBar';
 
-function ShowCreators() {
+const ShowCreators = ({ creators }) => {
+    
+    
     return(
 
         <div>
-            <h1>CreatorVerse</h1>
+            <NavBar />
+            { creators.map(creator => (
+                <CreatorCard creator={creator}/>
+            ))}
         </div>
 
     );

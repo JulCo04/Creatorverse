@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import NavBar from '../components/NavBar';
+import CreatorForm from '../components/CreatorForm';
 
-function AddCreator() {
-    return(
+const AddCreator = () => {
 
+    return (
         <div>
-            <h1>AddCreator</h1>
+            <NavBar />
+            <CreatorForm type={'create'}/>
+            
         </div>
-
     );
 }
 
