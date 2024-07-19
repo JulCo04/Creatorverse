@@ -5,7 +5,7 @@ import CreatorForm from '../components/CreatorForm';
 const AddCreator = () => {
 
     return (
-        <div>
+        <div className='bg-slate-800 h-screen overflow-x-hidden'>
             <NavBar />
             <CreatorForm type={'create'}/>
             

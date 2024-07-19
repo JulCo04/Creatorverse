@@ -5,7 +5,7 @@ import CreatorForm from '../components/CreatorForm';
 function EditCreator() {
     return(
 
-        <div>
+        <div className='bg-slate-800 h-screen overflow-x-hidden'>
             <NavBar />
             <CreatorForm type='edit'/>
         </div>
