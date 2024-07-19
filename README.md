@@ -2,7 +2,7 @@
 
 Submitted by: Julian Collazo
 
-About this web app: **👉🏿 app description here**
+About this web app:
 
 This web app acts as a central hub for storing information about various creators from platforms like YouTube, Instagram, and more. It allows you to view brief descriptions of each creator and save their social media links for easy access.
 
@@ -30,12 +30,13 @@ The following **additional** features are implemented:
 - [x] Clicking creator card directs you to their page rather than an info button
 - [x] Url's are formatted so http:// and https:// is not required
 - [x] Confirmation to delete creator
+- [x] Used Tailwind for styling
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://imgur.com/a/XRoCJcv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Creatorverse](https://github.com/user-attachments/assets/54982087-16fd-4b2e-94de-b2b6f0545ef4)
 
 GIF created with LiceCAP https://www.cockos.com/licecap/
 
